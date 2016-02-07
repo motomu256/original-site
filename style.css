@@ -1,0 +1,17 @@
+
+ul.bxslider1 li{
+	//指定した幅と高さあああ
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+ul.bxslider1 li img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}

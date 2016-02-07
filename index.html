@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet">
+	<script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+ 	<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+	$('.bxslider1').bxSlider({
+	auto: true,
+	speed:500,
+	hidecontrol: false,
+	controls: false,
+	pause:2000,
+	pager:false
+
+	});
+	});
+	</script>
+</head>
+<body>
+	<ul class="bxslider1">
+	<li><img src="images/a.png"></li>
+	<li><img src="images/b.png"></li>
+	<li><img src="images/c.png"></li>
+	<li><img src="images/d.png"></li>
+	</ul>
+
+
+	
+</body>
+</html>
