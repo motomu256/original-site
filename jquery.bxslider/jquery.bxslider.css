@@ -36,6 +36,7 @@
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
+	width:50%;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
