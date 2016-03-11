@@ -126,7 +126,7 @@ ul.bxslider4 li img{
 	font-family: 'Noto Sans Japanese', sans-serif;
 	text-align: center;
 	z-index: 100;
-	right:150px;
+	right:10%;
 	font-weight: 100px;
 
 }
@@ -139,4 +139,14 @@ ul.bxslider4 li img{
 }
 #intro{
 	color:red;
+}
+
+#btn1{
+	margin-left: 80%;
+	text-decoration: none;
+	padding: 10px;
+	/*border-radius: 10%;*/
+	color:blue;
+	background-color: red;
+
 }
